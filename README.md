@@ -18,17 +18,19 @@ To get started with the project, follow these steps:
 
 3. **Run Migrations**: Applies database migrations
 
-````bash
-  python3 manage.py makemigrations
-  python3 manage.py migrate
-  ```
+```bash
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
 
 4. **Create a Superuser**: Sets up an admin user for accessing the Django admin interface.
- ```bash
-  python3 manage.py createsuperuser
-  ```
 
-5. **Run the Development Server**: Run the server. The server will start on port 8000
- ```bash
-  python3 manage.py runserver
-````
+```bash
+ python3 manage.py createsuperuser
+```
+
+5. **Run the Development** Server: Run the server. The server will start on port 8000
+
+```bash
+ python3 manage.py runserver
+```
